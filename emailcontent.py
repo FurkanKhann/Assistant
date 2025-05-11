@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure your Gemini API key
-genai.configure(api_key="AIzaSyAUkZXa_1O4KOAvEj_Pnl53DWnMX7ouiJE")
+genai.configure(api_key="YOUR API")
 
 def emailgenerator(prompt, receiver):
     try:
