@@ -1,0 +1,6 @@
+streamlit
+pyttsx3
+requests
+pyautogui
+pywhatkit
+google-generativeai
