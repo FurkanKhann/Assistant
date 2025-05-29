@@ -2,7 +2,7 @@ import speech_recognition as sr
 
 recognizer = sr.Recognizer()
 
-def wait_for_wake_word(wake_word="hello sadqua"):
+def wait_for_wake_word(wake_word="hello assistant"):
     print(f"System is running... Say '{wake_word}' to activate.")
     while True:
         with sr.Microphone() as source:
